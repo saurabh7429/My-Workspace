@@ -1,3 +1,12 @@
+/*Write a program to create class Customer that contains Customer Id,
+Name, Address as data member and add customer and
+display_customer as member function. A derived class Order is
+created from the class Customer with publicly inherited. The derived
+class contains Price1, Price2, Price3 as Prices of three Products and
+input_prices and display_result as member functions. Create an
+array of object of the Order class and display the result of
+5 customers.*/
+
 #include <iostream>
 #include <string>
 using namespace std;

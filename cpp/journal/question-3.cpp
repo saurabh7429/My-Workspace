@@ -1,3 +1,16 @@
+/*Write a program to Create a class employee having data members
+emp_id, ename and the member functions to perform the following
+task
+(a) Input the employee details
+(b) Display the employee details
+Create the class calculate which contain the information of HRA, DA,
+PF, Basic Salary. Member functions are getsalary() which return
+salary and display() which display the employees name, emp_id and
+basic salary. Create another class salary which calculate the net
+salary and the member functions are getsalary()which return salary
+and display() which display the emp_name, emp_id, basic and net
+salary. (Use the concept of Multilevel inheritance)*/
+
 #include <iostream>
 #include <iomanip>
 #include <string>

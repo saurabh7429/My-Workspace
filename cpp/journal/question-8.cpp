@@ -1,3 +1,5 @@
+/*Write a program to implement stack with its operations.*/
+
 #include <iostream>
 using namespace std;
 

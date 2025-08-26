@@ -1,3 +1,15 @@
+/*Write a C++ program to demonstrate runtime polymorphism using
+inheritance and virtual functions.
+• Create a base class Shape with a virtual function
+calculateArea().
+• Derive two classes from Shape: Circle and Square.
+• Override the calculateArea() function in both derived classes
+to compute and display the area of the respective shape.
+• In the main() function, use a base class pointer to call the
+calculateArea() function for both a Circle and a Square object.
+• Show how dynamic binding works using this approach.
+*/
+
 #include <iostream>
 #include <cmath> // for M_PI
 using namespace std;
