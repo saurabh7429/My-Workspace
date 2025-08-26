@@ -1,3 +1,13 @@
+/*Write a program to create three class; Vehicle, Twowheeler and
+Fourwheeler. In Vehicle class data members are company name, and
+methods are input and display. Twowheeler inherit the properties of
+Vehical class and data members are name, type(gear,non gear) ; and
+methods are input and display. FourWheeler class inherit the
+properties of Vehical and it’s data members are name, model no, fuel
+type; and methods are input and display. Use overriding techniques
+for input and display methods.
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,3 +1,5 @@
+/*Write a program to implement simple queue with its operations.*/
+
 #include <iostream>
 using namespace std;
 

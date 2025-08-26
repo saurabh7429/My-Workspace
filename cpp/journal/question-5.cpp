@@ -1,3 +1,7 @@
+/*Write a program to create a class “word” which stores a string value.
+Overload +, == for concatenation and comparison operation
+respectively.*/
+
 #include <iostream>
 #include <string>
 using namespace std;

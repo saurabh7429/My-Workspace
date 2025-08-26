@@ -1,3 +1,7 @@
+/*Write a program to create an event class, create dynamic objects of
+event class, and release the memory of the created object before
+program terminates.*/
+
 #include <iostream>
 #include <string>
 using namespace std;
