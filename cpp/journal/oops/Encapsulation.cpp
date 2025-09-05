@@ -1,35 +1,44 @@
-//area of rectangle with some constructora and encapsulation
+//area of rectangle with some constructors and encapsulation
 #include<iostream>
 using namespace std;
 
 class Rectangle {
-    double length,weidth;
+    double length, width;
 
-    public:
-    Rectangle(): length(0) , weidth(0) {}
+public:
+    Rectangle() : length(0), width(0) {}
 
-    Rectangle(double l,double w) : length(l), weidth(w) {}
+    Rectangle(double l, double w) : length(l), width(w) {}
 
-    //setters
-    void setlength(double l) { if (l>=0) length = l; }
-    void setweidth(double w) { if (w>=0) weidth = w; }
-    
-    //getters
-    int getlength() const { return length; }
-    int getweidth() const { return weidth; }
+    // setters
+    void setlength(double l) { if (l >= 0) length = l; }
+    void setwidth(double w) { if (w >= 0) width = w; }
 
-    //return area
-    int area() const { return length*weidth; }
+    // getters
+    double getlength() const { return length; }
+    double getwidth() const { return width; }
+
+    // return area
+    double area() const { return length * width; }
+    double perimeter() const { return 2 * (length + width); }
 };
+
 int main()
 {
-    // double l,w;
-    Rectangle R;
-    R.setlength(5);
-    R.setweidth(3);
+    Rectangle R1, R2;
+    R1.setlength(5);
+    R1.setwidth(3);
+    cout << "length is :" << R1.getlength() << endl;
+    cout << "width is :" << R1.getwidth() << endl;
+    cout << "Area :" << R1.area() << endl;
+    cout << "perimeter :" << R1.perimeter() << endl;
 
-    cout<<"length is :"<<R.getlength() <<endl;
-    cout<<"weidth is :"<<R.getweidth() <<endl;
-    cout<<"Area :"<<R.area() <<endl;
+    R2.setlength(2.5);
+    R2.setwidth(4.2);
+    cout << "length is :" << R2.getlength() << endl;
+    cout << "width is :" << R2.getwidth() << endl;
+    cout << "Area :" << R2.area() << endl;
+    cout << "perimeter :" << R2.perimeter() << endl;
+
     return 0;
 }
