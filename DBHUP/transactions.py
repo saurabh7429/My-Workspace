@@ -1,32 +1,48 @@
 import sqlite3
-conn = sqlite3.connect('exam.db')
 
+# Connect to the database (exam.db)
+conn = sqlite3.connect('exam.db')
 cur = conn.cursor()
 
-cur.execute('''CREATE TABLE IF NOT EXISTS emp(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT);''')
+# Create a table for demonstration
+cur.execute('''CREATE TABLE IF NOT EXISTS demo(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT);''')
 
-cur.execute('''DELETE FROM emp;''')
-data = [('saurabh',), ('raj',), ('ganpat',), ('rishab',), ('ayush',)]
+# Start a transaction explicitly
+cur.execute('BEGIN;')  # or conn.execute('BEGIN;')
+print("Transaction started.")
 
-cur.executemany('''INSERT INTO emp (name) VALUES (?);''', data)
+# Insert a row
+cur.execute('INSERT INTO demo (name) VALUES (?);', ('Alice',))
+print("Inserted Alice.")
+
+# Decide to rollback (undo the insert)
+conn.rollback()
+print("Rolled back. Alice will NOT be in the table.")
+
+# Check table contents after rollback
+cur.execute('SELECT * FROM demo;')
+print("After rollback:", cur.fetchall())
+
+# Start another transaction
+cur.execute('BEGIN;')
+print("Transaction started again.")
+
+# Insert a row
+cur.execute('INSERT INTO demo (name) VALUES (?);', ('Bob',))
+print("Inserted Bob.")
+
+# Commit the transaction (save changes)
 conn.commit()
+print("Committed. Bob will be in the table.")
 
-cur.execute('''SELECT * FROM emp;''')
-for a in cur.fetchall():
-    print(a)
+# Check table contents after commit
+cur.execute('SELECT * FROM demo;')
+print("After commit:", cur.fetchall())
 
-print("-------A new data added--------\n\n")
-cur.execute('''INSERT INTO emp (name) VALUES ('neha')''')
-
-i = int(input("Data inserted.\nEnter 1 to commit else rollback: "))
-if i == 1:
-    conn.commit()
-else:
-    conn.rollback()
-
-cur.execute('''SELECT * FROM emp;''')
-for a in cur.fetchall():
-    print(a)
-
-cur.close()
+# Close connection
 conn.close()
+
+# --- Explanation ---
+# BEGIN starts a transaction (changes are not permanent yet).
+# COMMIT saves all changes made in the transaction.
+# ROLLBACK undoes all changes made since the last
