@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        div{ text-align: center; border: solid; border-radius: 30px; margin: 5% 5%; padding: 5%; background-color:cyan;}
+        body{ justify-content: center; align-items: center; background-color: gray;}
+        button{ border-radius: 10px; }
+        .output { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>REGISTRATION FORM</h1>
+        <form name="MyForm" action="#" method="post" onsubmit="return validateForm()">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <b><span class="ferror"></span></b>
+            <br><br>
+            <label for="age">Age :</label>
+            <input type="number" name="age" id="age" required>
+            <b><span class="ferror"></span></b>
+            <br><br>
+            <label for="password">password :</label>
+            <input type="password" name="password" id="password" required>
+            <b><span class="ferror"></span></b>
+            <br><br>
+            <button type="submit">SUBMIT</button>
+        </form>
+        <div class="output" id="output"></div>
+    </div>
+</body>
+<script>
+    function setError(id, error) {
+        var element = document.getElementById(id);
+        // Use parentNode to get the <b> and then find the .ferror span
+        element.parentNode.querySelector('.ferror').innerHTML = error;
+    }
+
+    function clearErrors() {
+        var errors = document.getElementsByClassName('ferror');
+        for (var i = 0; i < errors.length; i++) {
+            errors[i].innerHTML = "";
+        }
+    }
+
+    function validateForm() {
+        clearErrors();
+        var name = document.forms['MyForm']["name"].value;
+        var age = document.forms['MyForm']["age"].value;
+        var password = document.forms['MyForm']["password"].value;
+        var returnval = true;
+
+        if (name.length < 5) {
+            setError("name", "length is too short");
+            return false;
+        }
+
+        // If all validations pass, show output
+        document.getElementById("output").innerHTML =
+            "Inserted Output:<br>Name: " + name +
+            "<br>Age: " + age +
+            "<br>Password: " + password;
+
+
+
+
+</html></script>    }        return false; // Prevent actual form submission        return false; // Prevent actual form submission
+    }
+</script>
+</html>

@@ -1,0 +1,1040 @@
+[
+{
+"id": 1,
+"question": "What does AI stand for?",
+"options": ["Automated Intelligence", "Artificial Interaction", "Artificial Intelligence", "Augmented Innovation"],
+"answer": "Artificial Intelligence"
+},
+{
+"id": 2,
+"question": "Which of the following is a key component of AI?",
+"options": ["Data Entry", "Machine Learning", "Hardware Assembly", "Graphic Design"],
+"answer": "Machine Learning"
+},
+{
+"id": 3,
+"question": "What is the primary purpose of a chatbot?",
+"options": ["To simulate human conversations", "To develop software applications", "To manage hardware systems", "To analyze large datasets"],
+"answer": "To simulate human conversations"
+},
+{
+"id": 4,
+"question": "Which technology enables chatbots to understand and respond to user inputs?",
+"options": ["Data Processing", "Network Optimization", "Natural Language Processing (NLP)", "Cloud Computing"],
+"answer": "Natural Language Processing (NLP)"
+},
+{
+"id": 5,
+"question": "Which of the following is NOT a use case for chatbots?",
+"options": ["Customer support", "Product recommendation", "Human resource management", "Hardware manufacturing"],
+"answer": "Hardware manufacturing"
+},
+{
+"id": 6,
+"question": "What is the primary function of an AI chatbot?",
+"options": ["To analyze data", "To simulate human conversation", "To develop software", "To manage databases"],
+"answer": "To simulate human conversation"
+},
+{
+"id": 7,
+"question": "Which technology enables chatbots to understand user inputs?",
+"options": ["Neural Networks", "Machine Learning", "Natural Language Processing (NLP)", "Blockchain"],
+"answer": "Natural Language Processing (NLP)"
+},
+{
+"id": 8,
+"question": "Which of the following is NOT a feature of AI chatbots?",
+"options": ["Availability", "Context awareness", "Product manufacturing", "Natural language understanding"],
+"answer": "Product manufacturing"
+},
+{
+"id": 9,
+"question": "In which area are AI chatbots commonly used?",
+"options": ["Data encryption", "Customer support", "Hardware design", "Software coding"],
+"answer": "Customer support"
+},
+{
+"id": 10,
+"question": "What advantage do AI chatbots provide to businesses?",
+"options": ["Reduced operational costs", "Increased hardware efficiency", "Enhanced product quality", "Improved manufacturing speed"],
+"answer": "Reduced operational costs"
+},
+{
+"id": 11,
+"question": "What is the first step in how AI chatbots process user inputs?",
+"options": ["Generating a response", "Storing the conversation", "Natural Language Processing (NLP)", "Connecting to the database"],
+"answer": "Natural Language Processing (NLP)"
+},
+{
+"id": 12,
+"question": "Which technology helps chatbots improve over time?",
+"options": ["Blockchain", "Machine Learning (ML)", "Cloud Computing", "Data Encryption"],
+"answer": "Machine Learning (ML)"
+},
+{
+"id": 13,
+"question": "What is the primary function of a chatbot's backend system?",
+"options": ["Storing the conversation history", "Retrieving relevant data for responses", "Designing the chatbot's interface", "Enhancing system security"],
+"answer": "Retrieving relevant data for responses"
+},
+{
+"id": 14,
+"question": "Which of the following platforms can host AI chatbots?",
+"options": ["Mobile apps", "Websites", "Messaging platforms (eg, WhatsApp)", "All of the above"],
+"answer": "All of the above"
+},
+{
+"id": 15,
+"question": "What is the purpose of intent recognition in AI chatbots?",
+"options": ["To store data securely", "To identify what the user wants", "To analyze system performance", "To generate voice responses"],
+"answer": "To identify what the user wants"
+},
+{
+"id": 16,
+"question": "What is the primary feature of a rule-based chatbot?",
+"options": ["It uses predefined rules and scripts for responses", "It relies on machine learning to improve over time", "It uses sentiment analysis to adapt to emotions", "It can write and debug code independently"],
+"answer": "It uses predefined rules and scripts for responses"
+},
+{
+"id": 17,
+"question": "What distinguishes AI-powered chatbots from rule-based ones?",
+"options": ["AI-powered chatbots function without internet", "AI-powered chatbots improve through interactions and data", "AI-powered chatbots use static, predefined responses", "AI-powered chatbots are restricted to yes/no questions"],
+"answer": "AI-powered chatbots improve through interactions and data"
+},
+{
+"id": 18,
+"question": "Which of the following is an example of a conversational AI platform?",
+"options": ["Siri", "Amazon Alexa", "Google Assistant", "All of the above"],
+"answer": "All of the above"
+},
+{
+"id": 19,
+"question": "What type of chatbot uses Natural Language Processing (NLP)?",
+"options": ["Rule-based chatbot", "AI-powered chatbot", "Button-based chatbot", "Menu-driven chatbot"],
+"answer": "AI-powered chatbot"
+},
+{
+"id": 20,
+"question": "Which chatbot type is most suitable for complex problem-solving?",
+"options": ["Rule-based chatbot", "AI-powered chatbot", "Decision-tree chatbot", "Button-based chatbot"],
+"answer": "AI-powered chatbot"
+},
+{
+"id": 21,
+"question": "What is a hybrid chatbot?",
+"options": ["Switches between voice and text", "Combines rule-based and AI-powered features", "Supports multiple programming languages", "Operates both online and offline"],
+"answer": "A chatbot that combines rule-based and AI-powered features"
+},
+{
+"id": 22,
+"question": "What is the primary advantage of AI-powered chatbots over traditional ones?",
+"options": ["Lower cost of deployment", "Ability to generate insights from interactions", "Dependence on manual updates", "Reduced need for customer feedback"],
+"answer": "Ability to generate insights from interactions"
+},
+{
+"id": 23,
+"question": "Which type of chatbot is ideal for a simple FAQ system?",
+"options": ["Rule-based chatbot", "AI-powered chatbot", "Hybrid chatbot", "Sentiment-analysis chatbot"],
+"answer": "Rule-based chatbot"
+},
+{
+"id": 24,
+"question": "Which of the following is a positive impact of AI chatbots on society?",
+"options": ["Creation of repetitive tasks", "24/7 availability for customer support", "Increased unemployment rates", "Lack of empathy in communication"],
+"answer": "24/7 availability for customer support"
+},
+{
+"id": 25,
+"question": "How do AI chatbots impact businesses?",
+"options": ["By increasing operational costs", "By improving customer engagement and reducing response times", "By replacing management roles entirely", "By reducing data-driven decision-making"],
+"answer": "By improving customer engagement and reducing response times"
+},
+{
+"id": 26,
+"question": "What is a common ethical concern about AI chatbots?",
+"options": ["They are too expensive to develop", "They may misuse personal data", "They reduce product quality", "They always require internet access"],
+"answer": "They may misuse personal data"
+},
+{
+"id": 27,
+"question": "How can AI chatbots help in education?",
+"options": ["By replacing teachers entirely", "By providing personalized tutoring and assistance", "By creating standard lesson plans", "By monitoring and punishing students"],
+"answer": "By providing personalized tutoring and assistance"
+},
+{
+"id": 28,
+"question": "Which industry has seen significant transformation due to AI chatbots?",
+"options": ["Healthcare", "Retail", "Finance", "All of the above"],
+"answer": "All of the above"
+},
+{
+"id": 29,
+"question": "What is one potential negative social impact of AI chatbots?",
+"options": ["Encouraging more in-person interactions", "Reducing jobs in customer service roles", "Enhancing privacy and security", "Making customer experiences less efficient"],
+"answer": "Reducing jobs in customer service roles"
+},
+{
+"id": 30,
+"question": "How do AI chatbots affect accessibility?",
+"options": ["They create barriers for non-tech individuals", "They enhance access for people with disabilities", "They eliminate human customer service entirely", "They limit access to services in rural areas"],
+"answer": "They enhance access to services for people with disabilities"
+},
+{
+"id": 31,
+"question": "Why are AI chatbots sometimes criticized for lack of transparency?",
+"options": ["Their programming is open-source", "They do not disclose they are AI", "They always ask for unnecessary personal information", "They provide answers too quickly"],
+"answer": "They do not disclose they are AI"
+},
+{
+"id": 32,
+"question": "What is one way AI chatbots contribute to mental health support?",
+"options": ["By diagnosing complex conditions", "By offering basic emotional support and resources", "By replacing professional therapy", "By discouraging help-seeking behavior"],
+"answer": "By offering basic emotional support and resources"
+},
+{
+"id": 33,
+"question": "What is a societal benefit of AI chatbots in government services?",
+"options": ["Replacing public officials", "Streamlining access to information and resources for citizens", "Eliminating the need for taxes", "Creating policies without human intervention"],
+"answer": "Streamlining access to information and resources for citizens"
+},
+{
+"id": 34,
+"question": "What is ChatGPT?",
+"options": ["A social media platform", "A search engine", "An AI language model developed by OpenAI", "A gaming application"],
+"answer": "An AI language model developed by OpenAI"
+},
+{
+"id": 35,
+"question": "How does ChatGPT generate responses?",
+"options": ["By using predefined responses", "By accessing the internet in real-time", "By understanding and predicting language based on large datasets", "By searching through books manually"],
+"answer": "By understanding and predicting language based on large datasets"
+},
+{
+"id": 36,
+"question": "Which company developed ChatGPT?",
+"options": ["Google", "OpenAI", "Microsoft", "Facebook"],
+"answer": "OpenAI"
+},
+{
+"id": 37,
+"question": "What is the primary use of ChatGPT?",
+"options": ["Complex math calculations", "To generate and assist with natural language conversations", "To play video games", "To translate foreign languages in real-time"],
+"answer": "To generate and assist with natural language conversations"
+},
+{
+"id": 38,
+"question": "What type of AI technology powers ChatGPT?",
+"options": ["Computer vision", "Natural Language Processing (NLP)", "Robotics", "Speech recognition"],
+"answer": "Natural Language Processing (NLP)"
+},
+{
+"id": 39,
+"question": "Can ChatGPT learn from individual conversations in real-time?",
+"options": ["Yes, it learns continuously", "No, it does not retain information between interactions", "Yes, it stores all personal data", "No, it only responds without context"],
+"answer": "No, it does not retain information between interactions"
+},
+{
+"id": 40,
+"question": "What is the GPT in ChatGPT an acronym for?",
+"options": ["General Purpose Technology", "Global Positioning Technology", "Generative Pre-trained Transformer", "Generalized Protocol Technology"],
+"answer": "Generative Pre-trained Transformer"
+},
+{
+"id": 41,
+"question": "In which year was ChatGPT first introduced to the public?",
+"options": ["2020", "2021", "2022", "2023"],
+"answer": "2022"
+},
+{
+"id": 42,
+"question": "What are some potential uses of ChatGPT?",
+"options": ["Customer support, content generation, tutoring", "Only entertainment", "Only administrative tasks", "Only generating code"],
+"answer": "Customer support, content generation, tutoring"
+},
+{
+"id": 43,
+"question": "What is one limitation of ChatGPT?",
+"options": ["Cannot understand human language", "It generates responses based on patterns without understanding context", "Always provides 100% accuracy", "Requires manual updates to respond"],
+"answer": "It generates responses based on patterns without understanding context"
+},
+{
+"id": 44,
+"question": "How can you start using ChatGPT?",
+"options": ["Downloading app", "Visiting a website or using an integrated platform", "Contacting customer service", "Installing special hardware"],
+"answer": "By visiting a website or using an integrated platform"
+},
+{
+"id": 45,
+"question": "What is the primary way to interact with ChatGPT?",
+"options": ["Providing code to execute", "By typing questions or prompts into a text interface", "Speaking directly", "Providing images"],
+"answer": "By typing questions or prompts into a text interface"
+},
+{
+"id": 46,
+"question": "How should you phrase your questions to get the best responses from ChatGPT?",
+"options": ["Ask open-ended, clear, and specific questions", "Use technical terms only", "Only ask yes/no questions", "Provide vague information"],
+"answer": "Ask open-ended, clear, and specific questions"
+},
+{
+"id": 47,
+"question": "What can you ask ChatGPT to help with?",
+"options": ["Writing content, generating ideas, answering questions", "Managing personal finances", "Real-time in-depth research", "Playing video games"],
+"answer": "Writing content, generating ideas, answering questions, and explaining concepts"
+},
+{
+"id": 48,
+"question": "Can ChatGPT generate content in multiple languages?",
+"options": ["Yes, it can generate content in several languages", "No, only English", "Yes, but only three", "No, it only translates"],
+"answer": "Yes, it can generate content in several languages"
+},
+{
+"id": 49,
+"question": "How can you improve the quality of ChatGPT's responses?",
+"options": ["Detailed context or background information", "Basic questions only", "Random inputs", "Continuous correction"],
+"answer": "By providing it with detailed context or background information"
+},
+{
+"id": 50,
+"question": "Can ChatGPT understand and respond to follow-up questions?",
+"options": ["Yes, it can follow the conversation context", "No, each is independent", "Yes, only if you repeat the original", "No, only one at a time"],
+"answer": "Yes, it can follow the conversation context and respond to follow-up questions"
+},
+{
+"id": 51,
+"question": "What is a good practice when using ChatGPT for generating content?",
+"options": ["Relying solely without editing", "Using it as a tool for brainstorming and refining ideas", "Writing long essays without prompts", "Avoiding specific questions"],
+"answer": "Using it as a tool for brainstorming and refining ideas rather than a source of final content"
+},
+{
+"id": 52,
+"question": "How can ChatGPT be used in educational settings?",
+"options": ["As a tutor to explain concepts", "Grade automatically", "Substitute for teachers", "Monitor performance"],
+"answer": "As a tutor to explain concepts or assist with studying"
+},
+{
+"id": 53,
+"question": "What is a limitation when using ChatGPT for specialized tasks, like coding or medical advice?",
+"options": ["Only general answers/not solve complex problems", "Trained only for casual conversations", "Always accurate for specialized fields", "Cannot process technical inputs"],
+"answer": "It is trained only for casual conversations, not specialized topics"
+},
+{
+"id": 54,
+"question": "What is one of ChatGPT's key features?",
+"options": ["Real-time browsing", "Ability to understand and generate human-like text", "Playing music", "Generating visual art"],
+"answer": "Ability to understand and generate human-like text"
+},
+{
+"id": 55,
+"question": "Can ChatGPT generate creative content such as stories and poems?",
+"options": ["No, only factual", "Yes, it can generate stories, poems, and jokes", "No, only code", "Yes, but only fixed style"],
+"answer": "Yes, it can generate creative content such as stories, poems, and even jokes"
+},
+{
+"id": 56,
+"question": "How does ChatGPT understand and process natural language?",
+"options": ["Hard-coded rules", "Learning from vast amounts of text data using ML algorithms", "Pre-programmed responses", "Searching knowledge base manually"],
+"answer": "By learning from vast amounts of text data using machine learning algorithms"
+},
+{
+"id": 57,
+"question": "Which of the following tasks can ChatGPT perform?",
+"options": ["Code generation and debugging", "Text summarization", "Answering factual questions", "All of the above"],
+"answer": "All of the above"
+},
+{
+"id": 58,
+"question": "Can ChatGPT remember past conversations across different sessions?",
+"options": ["Yes, stores all data", "No, does not retain for privacy reasons", "Yes, but only within one session", "No, forgets immediately"],
+"answer": "No, it does not retain information between sessions for privacy and security reasons"
+},
+{
+"id": 59,
+"question": "How does ChatGPT handle multiple languages?",
+"options": ["Only English", "Can handle multiple and generate in them", "Only translate", "Only US languages"],
+"answer": "It can handle multiple languages and generate content in them"
+},
+{
+"id": 60,
+"question": "Can ChatGPT be integrated into other platforms or applications?",
+"options": ["No, standalone only", "Yes, into websites and apps", "Only social media", "Only mobile devices"],
+"answer": "Yes, it can be integrated into websites, customer service platforms, and other applications"
+},
+{
+"id": 61,
+"question": "What kind of tasks is ChatGPT less capable of performing?",
+"options": ["Simple text answers", "Providing highly specialized real-time updates", "Complex conversations", "Summarizing articles"],
+"answer": "Providing highly specialized, real-time updates (e.g., live stock market data)"
+},
+{
+"id": 62,
+"question": "How does ChatGPT handle ambiguity in questions or prompts?",
+"options": ["Random selection", "Asks the user for clarification", "Guesses", "Stops responding"],
+"answer": "It asks the user for clarification to provide a more accurate response"
+},
+{
+"id": 63,
+"question": "Can ChatGPT generate responses that involve coding tasks?",
+"options": ["No, only natural language", "Yes, can write, debug, and explain code", "No, only general advice", "Yes, but only Python"],
+"answer": "Yes, it can write, debug, and explain code in various programming languages"
+},
+{
+"id": 64,
+"question": "What is one key use case of ChatGPT in customer support?",
+"options": ["Automated phone calls", "24/7 assistance for common inquiries", "Processing payments", "Diagnosing medical conditions"],
+"answer": "Providing 24/7 assistance for common inquiries and troubleshooting"
+},
+{
+"id": 65,
+"question": "How can ChatGPT assist content creators?",
+"options": ["Video editing", "Generating drafts, ideas, and written content", "Designing graphics", "Market research"],
+"answer": "By generating drafts, ideas, and written content for blogs, articles, and social media"
+},
+{
+"id": 66,
+"question": "In the field of education, what role does ChatGPT play?",
+"options": ["Live lectures", "Answering students' questions and providing explanations", "Grading automatically", "Creating test papers"],
+"answer": "Answering students' questions and providing explanations for complex topics"
+},
+{
+"id": 67,
+"question": "Which of the following is a use case of ChatGPT for developers?",
+"options": ["Building websites from scratch", "Generating code snippets and debugging", "Hardware configurations", "Directly compiling code"],
+"answer": "Generating code snippets and debugging programming errors"
+},
+{
+"id": 68,
+"question": "How can ChatGPT support mental health efforts?",
+"options": ["Diagnosing disorders", "Providing emotional support and suggesting coping mechanisms", "Real-time therapy sessions", "Replacing professionals"],
+"answer": "By providing emotional support and suggesting coping mechanisms"
+},
+{
+"id": 69,
+"question": "What is ChatGPT's role in language translation?",
+"options": ["Basic translations without context", "Real-time, context-aware translation and localization", "Only English and Spanish", "Only programming languages"],
+"answer": "It offers real-time, context-aware translation and localization of content."
+},
+{
+"id": 70,
+"question": "How can ChatGPT function as a personal assistant?",
+"options": ["Sending text messages", "Helping with scheduling, reminders, and answering questions", "Attending meetings", "Controlling smart devices"],
+"answer": "By helping with scheduling, reminders, and answering questions"
+},
+{
+"id": 71,
+"question": "Which of the following is NOT a primary use case for ChatGPT?",
+"options": ["Customer support automation", "Content creation", "Performing medical surgeries", "Code generation"],
+"answer": "Performing medical surgeries"
+},
+{
+"id": 72,
+"question": "In content creation, what specific task can ChatGPT assist with?",
+"options": ["Video animations", "Writing product descriptions, blogs, and social content", "Graphics and logos", "Market surveys"],
+"answer": "Writing product descriptions, blog posts, and social media content"
+},
+{
+"id": 73,
+"question": "What is a major benefit of using ChatGPT for language translation?",
+"options": ["Basic phrases only", "Fast, context-aware translations that consider cultural nuances", "Word-for-word only", "Requires human correction"],
+"answer": "It provides fast, context-aware translations that consider cultural nuances."
+},
+{
+"id": 74,
+"question": "What is Bard?",
+"options": ["Music software", "Search engine", "An AI chatbot developed by Google", "VR platform"],
+"answer": "An AI chatbot developed by Google"
+},
+{
+"id": 75,
+"question": "Which technology powers Bard's conversational abilities?",
+"options": ["GPT-3", "LaMDA", "BERT", "TransformerX"],
+"answer": "LaMDA (Language Model for Dialogue Applications)"
+},
+{
+"id": 76,
+"question": "What is one of Bard's primary capabilities?",
+"options": ["Digital art", "Providing natural language responses to user queries", "Hardware management", "Scientific research"],
+"answer": "Providing natural language responses to user queries"
+},
+{
+"id": 77,
+"question": "Which company developed Bard?",
+"options": ["Microsoft", "Amazon", "Google", "IBM"],
+"answer": "Google"
+},
+{
+"id": 78,
+"question": "How does Bard differ from traditional search engines?",
+"options": ["Links only", "Generates direct, conversational responses", "No AI", "Offline only"],
+"answer": "Bard generates direct, conversational responses to queries rather than links."
+},
+{
+"id": 79,
+"question": "What type of tasks can Bard assist users with?",
+"options": ["Real-time news", "Answering questions and generating creative content", "Editing videos", "Tech support for devices"],
+"answer": "Answering questions and generating creative content"
+},
+{
+"id": 80,
+"question": "What is a major advantage of using Bard over traditional search engines?",
+"options": ["Multiple results", "Summarized, conversational responses", "Text only", "Manual curation"],
+"answer": "It offers summarized, conversational responses instead of just links to sources."
+},
+{
+"id": 81,
+"question": "Can Bard generate content such as stories and articles?",
+"options": ["No, factual only", "Yes, Bard can help generate creative content", "No, customer service only", "Yes, but academic only"],
+"answer": "Yes, Bard can help generate creative content like stories and poems."
+},
+{
+"id": 82,
+"question": "How does Bard's AI model (LaMDA) enhance its performance?",
+"options": ["Specific topics only", "Short answers only", "Engaging in natural, flowing conversations", "Google Maps connection"],
+"answer": "By allowing Bard to engage in natural, flowing conversations"
+},
+{
+"id": 83,
+"question": "What is one limitation of Bard?",
+"options": ["English only", "No internet", "May provide incomplete or incorrect info", "Google products only"],
+"answer": "It may provide incomplete or incorrect information, requiring user verification."
+},
+{
+"id": 84,
+"question": "How do you interact with Bard?",
+"options": ["Voice commands", "Typing queries or requests into a text box", "Clicking links", "Selecting from list"],
+"answer": "By typing queries or requests into a text box"
+},
+{
+"id": 85,
+"question": "What type of tasks can Bard help with?",
+"options": ["Calendar management", "Answering questions, generating content, summarizing", "Writing code", "Hardware issues"],
+"answer": "Answering questions, generating content, and summarizing information"
+},
+{
+"id": 86,
+"question": "What is the primary method of communication with Bard?",
+"options": ["Voice only", "Through text-based input", "Images and videos", "File upload"],
+"answer": "Through text-based input"
+},
+{
+"id": 87,
+"question": "Where can you typically use Bard?",
+"options": ["Mobile only", "Through Google's AI tools and platforms", "Google Assistant only", "Gmail/Docs only"],
+"answer": "Through Google's AI tools and platforms that support Bard"
+},
+{
+"id": 88,
+"question": "What is Bard's underlying technology?",
+"options": ["GPT", "LaMDA", "BERT", "Turing Test"],
+"answer": "LaMDA (Language Model for Dialogue Applications)"
+},
+{
+"id": 89,
+"question": "How does Bard differ from traditional search engines?",
+"options": ["Links only", "Conversational, natural language responses", "No direct answers", "Image results only"],
+"answer": "It provides conversational, natural language responses instead of just links"
+},
+{
+"id": 90,
+"question": "Can Bard generate creative content such as poems or short stories?",
+"options": ["No, factual only", "Yes, stories, poems, and ideas", "No, answering only", "Yes, only technical"],
+"answer": "Yes, it can generate creative content like stories, poems, and ideas"
+},
+{
+"id": 91,
+"question": "How can you get the best responses from Bard?",
+"options": ["Vague questions", "Detailed, specific prompts and follow-ups", "Voice commands", "Yes/no questions"],
+"answer": "By providing detailed, specific prompts and asking follow-up questions"
+},
+{
+"id": 92,
+"question": "Can Bard help summarize articles or provide overviews?",
+"options": ["No, cannot process long texts", "Yes, summarize articles and provide concise overviews", "No, basic only", "Yes, only tech"],
+"answer": "Yes, Bard can summarize articles and provide concise overviews"
+},
+{
+"id": 93,
+"question": "What is a limitation of using Bard?",
+"options": ["Internet connection required", "No multiple languages", "Always 100% accurate", "No text input"],
+"answer": "It requires an internet connection to generate responses"
+},
+{
+"id": 94,
+"question": "What is Bard's primary feature?",
+"options": ["Visual art", "Engaging in natural, human-like conversations", "Running programs", "Compiling datasets"],
+"answer": "Engaging in natural, human-like conversations"
+},
+{
+"id": 95,
+"question": "What kind of questions can Bard answer?",
+"options": ["Personal opinion only", "Factual only", "Factual, knowledge-based, and conceptual", "None"],
+"answer": "Factual, knowledge-based, and conceptual questions"
+},
+{
+"id": 96,
+"question": "How can Bard assist with creative tasks?",
+"options": ["Marketing data", "Art and images", "Writing stories, poems, and brainstorming", "Physical prototypes"],
+"answer": "By writing stories, poems, and brainstorming ideas"
+},
+{
+"id": 97,
+"question": "What does Bard do when summarizing a lengthy article?",
+"options": ["Rewrites formally", "Produces a short, concise summary", "Rating only", "Lists headings"],
+"answer": "Produces a short, concise summary to help users understand key points"
+},
+{
+"id": 98,
+"question": "Can Bard generate content in multiple languages?",
+"options": ["No, English only", "Yes, multiple languages", "French/Spanish only", "Native only"],
+"answer": "Yes, Bard can help with content generation and translations in multiple languages"
+},
+{
+"id": 99,
+"question": "How does Bard differ from traditional search engines?",
+"options": ["Traditional links only", "Direct conversational answers and insights", "No internet access", "Inaccurate"],
+"answer": "Bard provides direct conversational answers and insights rather than just search results"
+},
+{
+"id": 100,
+"question": "What is Bard's underlying technology?",
+"options": ["GPT-4", "LaMDA", "BERT", "DeepMind"],
+"answer": "LaMDA (Language Model for Dialogue Applications)"
+},
+{
+"id": 101,
+"question": "Can Bard assist with task management?",
+"options": ["Yes (to-do, emails, reminders)", "No, answering only", "Yes, technical only", "No"],
+"answer": "Yes, Bard can help with creating to-do lists, drafting emails, and setting reminders"
+},
+{
+"id": 102,
+"question": "How does Bard stay updated with new information?",
+"options": ["Real-time browsing", "Outdated data", "Offline updates", "Historical only"],
+"answer": "Bard has real-time browsing capabilities and retrieves live data from the internet"
+},
+{
+"id": 103,
+"question": "Which of the following tasks is Bard less likely to perform?",
+"options": ["Creative content", "Real-time stock market questions", "Translating", "Summarizing"],
+"answer": "Answering real-time stock market questions"
+},
+{
+"id": 104,
+"question": "What is one of Bard's primary use cases in customer support?",
+"options": ["Digital art", "Generating inquiries", "Automating responses to common questions", "Designing products"],
+"answer": "Automating responses to common customer questions and providing solutions"
+},
+{
+"id": 105,
+"question": "How can Bard assist content creators?",
+"options": ["Designing graphics", "Generating articles, blogs, social media content", "Coding websites", "Editing videos"],
+"answer": "By generating articles, blog posts, social media content, and creative writing"
+},
+{
+"id": 106,
+"question": "What can Bard do to help with personal task management?",
+"options": ["Physical appointments", "Auto text messages", "Reminders, to-do lists, and email drafts", "In-person support"],
+"answer": "Help with reminders, to-do lists, and email drafts"
+},
+{
+"id": 107,
+"question": "How does Bard assist with language translation?",
+"options": ["Spanish to English only", "Translate content between multiple languages and localize", "Short phrases only", "Formal only"],
+"answer": "It can translate content between multiple languages and localize it for specific regions"
+},
+{
+"id": 108,
+"question": "How can Bard be used in the field of education?",
+"options": ["Automating lectures", "Answering students' questions and explaining complex topics", "Writing textbooks", "Grading exams"],
+"answer": "By answering students' questions and explaining complex topics"
+},
+{
+"id": 109,
+"question": "Can Bard generate creative writing?",
+"options": ["No, factual only", "Yes, poems, stories, creative content", "Yes, technical only", "No, summarizing only"],
+"answer": "Yes, Bard can generate poems, stories, and other creative content"
+},
+{
+"id": 110,
+"question": "How can Bard be useful for market research?",
+"options": ["Graphics", "Summarizing trends, competitor analysis, consumer insights", "Running ads", "Compiling raw data"],
+"answer": "By summarizing trends, competitor analysis, and consumer behavior insights"
+},
+{
+"id": 111,
+"question": "In what way can Bard help with health and wellness?",
+"options": ["Personalized diagnoses", "General wellness advice, stress management, fitness", "Pharmaceuticals", "In-person therapy"],
+"answer": "By offering general wellness advice, stress management tips, and fitness routines"
+},
+{
+"id": 112,
+"question": "What is a limitation of using Bard for health-related guidance?",
+"options": ["Can replace advice", "Only general wellness tips/cannot diagnose", "Single condition only", "No advice"],
+"answer": "It can only provide general wellness tips and cannot diagnose conditions"
+},
+{
+"id": 113,
+"question": "How does Bard assist with brainstorming and idea generation?",
+"options": ["Random ideas", "Helps brainstorm topics, prompts, themes", "Detailed project plans", "Market-specific only"],
+"answer": "It helps writers and creative professionals brainstorm topics, writing prompts, and themes for projects"
+},
+{
+"id": 114,
+"question": "What is LaMDA designed to excel at?",
+"options": ["Stock prices", "Engaging in open-ended, natural dialogue", "Visual art", "Data analysis"],
+"answer": "Engaging in open-ended, natural dialogue"
+},
+{
+"id": 115,
+"question": "What makes Megatron-Turing NLG different from other language models?",
+"options": ["Processes images", "One of the largest models with 530 billion parameters", "Voice commands", "Programming only"],
+"answer": "It is one of the largest language models with 530 billion parameters"
+},
+{
+"id": 116,
+"question": "Which company developed LaMDA?",
+"options": ["NVIDIA", "Google", "EleutherAI", "OpenAI"],
+"answer": "Google"
+},
+{
+"id": 117,
+"question": "What type of tasks can Megatron-Turing NLG handle?",
+"options": ["Visual art", "Text generation, translation, and summarization", "Medical diagnoses", "Writing code"],
+"answer": "Performing natural language generation tasks like text generation, translation, and summarization"
+},
+{
+"id": 118,
+"question": "What is a key feature of GPT-Neo?",
+"options": ["Open-source AI model", "Google exclusive", "Factual questions only", "Generating music"],
+"answer": "It is an open-source AI model"
+},
+{
+"id": 119,
+"question": "What is the main goal of LaMDA?",
+"options": ["Random facts", "Enable natural, open-ended conversations with AI", "Summarize books", "Math calculations"],
+"answer": "To enable natural, open-ended conversations with AI"
+},
+{
+"id": 120,
+"question": "Which of the following is true about Megatron-Turing NLG?",
+"options": ["EleutherAI designed it", "It has 530 billion parameters", "Small-scale model", "Voice recognition system"],
+"answer": "It has 530 billion parameters, making it one of the largest models"
+},
+{
+"id": 121,
+"question": "Who developed GPT-Neo?",
+"options": ["Google", "EleutherAI", "Microsoft", "NVIDIA"],
+"answer": "EleutherAI"
+},
+{
+"id": 122,
+"question": "Which of the following tasks can GPT-Neo perform?",
+"options": ["Natural language generation", "Object identification", "Spreadsheet math", "3D models"],
+"answer": "Natural language generation, such as answering questions and generating text"
+},
+{
+"id": 123,
+"question": "What makes LaMDA different from traditional AI models?",
+"options": ["Voice recognition", "Static responses", "Dynamic, open-ended conversations", "Factual only"],
+"answer": "It is designed for handling dynamic, open-ended conversations on a wide range of topics"
+},
+{
+"id": 124,
+"question": "What is a key feature of LaMDA?",
+"options": ["Static answers only", "Open-ended, natural conversations across various topics", "Image analysis", "Text summarization only"],
+"answer": "It is designed for open-ended, natural conversations across various topics"
+},
+{
+"id": 125,
+"question": "What sets Megatron-Turing NLG apart from other language models?",
+"options": ["Creative fiction", "530 billion parameters/advanced tasks", "Short queries only", "Translation only"],
+"answer": "It is one of the largest language models, with 530 billion parameters, making it capable of performing highly advanced tasks"
+},
+{
+"id": 126,
+"question": "What is a primary feature of GPT-Neo?",
+"options": ["Closed-source", "Fine-tune model for specific tasks", "Factual only", "Visual content"],
+"answer": "It allows users to fine-tune the model for specific tasks"
+},
+{
+"id": 127,
+"question": "How does LaMDA excel in conversation?",
+"options": ["Brief responses", "Maintaining context and coherence over long dialogues", "Pre-programmed only", "One-word responses"],
+"answer": "By maintaining context and coherence over long, multi-topic dialogues"
+},
+{
+"id": 128,
+"question": "Which of the following tasks can Megatron-Turing NLG perform?",
+"options": ["Text generation, translation, summarization", "Image generation", "Video editing", "Sound processing"],
+"answer": "Text generation, translation, summarization, and answering questions"
+},
+{
+"id": 129,
+"question": "What distinguishes GPT-Neo from other models like GPT-3?",
+"options": ["Proprietary", "Open-source and free for developers", "Voice recognition", "English only"],
+"answer": "It is open-source and can be used freely by developers"
+},
+{
+"id": 130,
+"question": "What is LaMDA's primary goal in conversational AI?",
+"options": ["Technical documentation", "Human-like, open-ended conversations", "Machine learning tasks", "Structured queries only"],
+"answer": "To engage users in human-like, open-ended conversations"
+},
+{
+"id": 131,
+"question": "Which of the following is a strength of Megatron-Turing NLG?",
+"options": ["High-accuracy text due to large parameter size", "Simple summaries", "Translation only", "Creative writing"],
+"answer": "It generates high-accuracy text across multiple tasks due to its large parameter size"
+},
+{
+"id": 132,
+"question": "What can GPT-Neo generate?",
+"options": ["Factual data only", "Text-based content (stories, poems, answers)", "Images/Videos", "Audio content"],
+"answer": "Text-based content such as stories, poems, and answers to questions"
+},
+{
+"id": 133,
+"question": "How does GPT-Neo support customization for users?",
+"options": ["Fine-tune for specific applications", "Pre-set answers", "One style only", "Requires detailed code"],
+"answer": "It allows developers to fine-tune the model for specific applications or domains"
+},
+{
+"id": 134,
+"question": "What is a key use case for LaMDA in customer service?",
+"options": ["Automating assembly", "Human-like conversational abilities", "Product delivery", "Inventory"],
+"answer": "Handling customer queries with human-like conversational abilities"
+},
+{
+"id": 135,
+"question": "How can LaMDA be applied in entertainment and gaming?",
+"options": ["Static designs", "Dynamic narratives for interactive games", "Performance analysis", "In-game payments"],
+"answer": "By creating dynamic narratives for interactive games with unpredictable storylines"
+},
+{
+"id": 136,
+"question": "Which of the following is a use case for Megatron-Turing NLG?",
+"options": ["Writing novels", "Summarizing long documents and articles", "Stock market data", "Advertising art"],
+"answer": "Summarizing long documents and articles"
+},
+{
+"id": 137,
+"question": "How does Megatron-Turing NLG help with multilingual communication?",
+"options": ["Emotional support", "Translating text between languages", "Live meeting translation", "User feedback"],
+"answer": "By translating text between different languages, enabling smoother global communication"
+},
+{
+"id": 138,
+"question": "What is a common application of GPT-Neo in creative content creation?",
+"options": ["Generating articles, stories, scripts", "Editing visual content", "Producing music", "Physical art"],
+"answer": "Generating articles, stories, scripts, and poetry"
+},
+{
+"id": 139,
+"question": "How can GPT-Neo be used in education?",
+"options": ["Physical lectures", "Assisting students with homework and academic questions", "Design curriculum", "In-person tutoring"],
+"answer": "By assisting students with homework, answering academic questions, and helping with language learning"
+},
+{
+"id": 140,
+"question": "Which use case of GPT-Neo involves assisting researchers?",
+"options": ["Personal life queries", "Summarizing papers/generating hypotheses", "Social media profiles", "Animated videos"],
+"answer": "Summarizing research papers, generating hypotheses, or creating detailed reports from raw data"
+},
+{
+"id": 141,
+"question": "How does Megatron-Turing NLG assist businesses with sentiment analysis?",
+"options": ["Detecting emotions in photos", "Analyzing customer reviews/social posts", "Organizing data", "Managing chatbots"],
+"answer": "By analyzing customer reviews or social media posts to determine public sentiment"
+},
+{
+"id": 142,
+"question": "Which of the following is NOT a typical use case of LaMDA?",
+"options": ["Open-ended conversations", "Customer support inquiries", "Generating static factual content", "Social media accounts"],
+"answer": "Generating static factual content"
+},
+{
+"id": 143,
+"question": "What is a significant feature of GPT-Neo in open-source applications?",
+"options": ["Commercial only", "Wide range of tasks (chatbots/content generation)", "High fees", "Creative content only"],
+"answer": "It can be used by developers for a wide range of tasks, such as chatbots and content generation"
+},
+{
+"id": 144,
+"question": "How can AI chatbots personalize the learning experience?",
+"options": ["Fixed content", "Tailoring lessons/quizzes to strengths/weaknesses", "Textbook only", "Predefined answers"],
+"answer": "By tailoring lessons, quizzes, and resources to a student's strengths and weaknesses"
+},
+{
+"id": 145,
+"question": "What benefit do AI chatbots provide by being available 24/7 in education?",
+"options": ["Reduce homework", "Immediate assistance outside school hours", "Replace methods completely", "Grade assignments only"],
+"answer": "They help students get immediate assistance outside school hours for questions and learning tasks"
+},
+{
+"id": 146,
+"question": "How do AI chatbots assist with grading in education?",
+"options": ["Multiple-choice only", "Automating grading of assignments/quizzes/tests", "Essays only", "Eliminating feedback"],
+"answer": "By automating grading of assignments, quizzes, and tests and providing instant feedback"
+},
+{
+"id": 147,
+"question": "How do AI chatbots improve student engagement?",
+"options": ["Static content", "Interactive quizzes, flashcards, exercises", "Topic limits", "Removing written materials"],
+"answer": "By offering interactive quizzes, flashcards, and simulated exercises that encourage participation"
+},
+{
+"id": 148,
+"question": "In what way can AI chatbots assist students in language learning?",
+"options": ["Grammar only", "Vocabulary, pronunciation, grammar, conversation practice", "Replace teachers", "Theory only"],
+"answer": "By helping with vocabulary, pronunciation, grammar, and conversation practice in real-time"
+},
+{
+"id": 149,
+"question": "What role do AI chatbots play in providing real-time feedback for students?",
+"options": ["No feedback", "Tracking progress and feedback on strengths/weaknesses", "Generic feedback", "Grading exams only"],
+"answer": "They track students' progress and provide real-time feedback on their strengths and weaknesses"
+},
+{
+"id": 150,
+"question": "How can AI chatbots make the learning experience more interactive?",
+"options": ["Passive reading", "Dynamic conversations and personalized activities", "Eliminating sessions", "Creating lectures"],
+"answer": "By offering dynamic conversations, interactive learning modules, and personalized activities"
+},
+{
+"id": 151,
+"question": "What is a significant advantage of AI chatbots in supporting 24/7 learning?",
+"options": ["No teachers needed", "Access instant help/resources outside school hours", "Do homework for students", "Reduce learning materials"],
+"answer": "Students can access instant help and resources whenever needed, even outside of school hours"
+},
+{
+"id": 152,
+"question": "How can AI chatbots help with educational administration?",
+"options": ["Grading only", "Administrative tasks (scheduling, assignment tracking)", "Eliminating tasks", "Replacing teachers"],
+"answer": "By helping students with administrative tasks like scheduling, assignment tracking, and more"
+},
+{
+"id": 153,
+"question": "How do AI chatbots improve the teacher's role in the classroom?",
+"options": ["Automating all teaching", "Reducing workload in grading/admin", "Teaching all lessons", "Replacing teachers"],
+"answer": "By reducing the teacher's workload in grading and administrative tasks, allowing them to focus on personalized teaching"
+},
+{
+"id": 154,
+"question": "What is one of the challenges of using AI chatbots in education?",
+"options": ["Replace teachers", "Lack emotional intelligence and empathy", "School hours only", "No data processing"],
+"answer": "They may lack the emotional intelligence and empathy needed for personalized support"
+},
+{
+"id": 155,
+"question": "How do AI chatbots in education face technical limitations?",
+"options": ["Understand nuanced language", "Struggle with diverse dialects or complex matter", "Never incorrect", "Perfect support"],
+"answer": "They may struggle to understand diverse dialects or handle complex subject matter, leading to incorrect responses"
+},
+{
+"id": 156,
+"question": "What is a significant concern regarding data privacy in education?",
+"options": ["Erase data", "Risk that personal/learning data could be exposed/misused", "Do not store data", "No access to data"],
+"answer": "There is a risk that personal information or learning data could be exposed or misused"
+},
+{
+"id": 157,
+"question": "How can AI chatbots in education lead to biased outcomes?",
+"options": ["Neutral responses", "Inherit biases from training data", "Cannot be influenced", "Adapt without errors"],
+"answer": "AI chatbots can inherit biases from their training data, affecting their responses or the learning experience"
+},
+{
+"id": 158,
+"question": "What is one opportunity presented by AI chatbots in education?",
+"options": ["School hours only", "Personalized learning based on progress/needs", "Passive learning", "Incapable of automation"],
+"answer": "AI chatbots can provide personalized learning experiences based on individual student progress and needs"
+},
+{
+"id": 159,
+"question": "How do AI chatbots improve student support outside school hours?",
+"options": ["24/7 access to assignments/feedback", "Replacing teachers", "Limit to school hours", "Eliminate engagement"],
+"answer": "By providing 24/7 access to assignments and feedback"
+},
+{
+"id": 160,
+"question": "In what way can AI chatbots make education more cost-effective?",
+"options": ["Reducing need for in-person tutoring and scaling resources", "Increasing cost", "Eliminating materials", "Manual interaction"],
+"answer": "By reducing the need for expensive in-person tutoring and scaling learning resources to a larger number of students"
+},
+{
+"id": 161,
+"question": "How do AI chatbots increase student engagement?",
+"options": ["Static lessons", "Interactive quizzes, discussions, and dynamic lessons", "Removing assignments", "Text-only focus"],
+"answer": "By offering interactive quizzes, discussions, and dynamic lessons that encourage active participation"
+},
+{
+"id": 162,
+"question": "What is a major advantage of AI chatbots in automating admin tasks?",
+"options": ["Replace educators", "Automate grading/tracking, freeing educator's time", "Eliminate teachers", "Create more work"],
+"answer": "They can automate grading, tracking progress, and answering routine questions, freeing up educators' time for more focused teaching"
+},
+{
+"id": 163,
+"question": "How can the reliance on technology in AI education be a challenge?",
+"options": ["Ensure equal resources", "Areas with limited internet/tech may miss out", "Makes tech redundant", "Guarantees proficiency"],
+"answer": "In areas with limited internet access or technology, students may miss out on AI-powered learning opportunities"
+},
+{
+"id": 164,
+"question": "What was the primary function of the 'Pounce' AI chatbot at GSU?",
+"options": ["Learn languages", "Assist students with administrative tasks (registration/financial aid)", "24/7 math tutoring", "Grade assignments"],
+"answer": "To assist students with administrative tasks like registration and financial aid"
+},
+{
+"id": 165,
+"question": "How did Duolingo's AI-powered chatbot enhance language learning?",
+"options": ["Interactive conversations and instant feedback", "Replace instructors", "Single exercise only", "Reading only"],
+"answer": "By providing students with interactive conversations and instant feedback"
+},
+{
+"id": 166,
+"question": "In the IBM Watson case study, what did the 'Watson Tutor' provide?",
+"options": ["Admin support", "Personalized tutoring and learning paths", "Career advice", "Pre-recorded lessons"],
+"answer": "Personalized tutoring and learning paths based on student performance"
+},
+{
+"id": 167,
+"question": "What role did the 'Marvin' AI chatbot play at University of Melbourne?",
+"options": ["Course material delivery", "Course enrollment, campus resources, scheduling", "Grade assignments", "Replace lectures"],
+"answer": "To provide students with information related to course enrollment, campus resources, and event scheduling"
+},
+{
+"id": 168,
+"question": "What was the impact of the 'Pounce' AI chatbot on student retention at GSU?",
+"options": ["Decreased retention", "Increased retention by helping with admin/deadlines", "Eliminated faculty", "Replaced lectures"],
+"answer": "It increased student retention by helping students with administrative tasks and deadlines"
+},
+{
+"id": 169,
+"question": "How does Duolingo's AI chatbot help with language learning?",
+"options": ["Fixed grammar rules", "Simulating real-world conversations and personalized feedback", "Reading only", "Replace instructors"],
+"answer": "By simulating real-world conversations and offering personalized feedback based on student performance"
+},
+{
+"id": 170,
+"question": "What is the main benefit of using Watson Tutor in IBM's programs?",
+"options": ["Personalized learning paths in math/science", "General advice only", "Lessons without interaction", "Emotional support"],
+"answer": "It helps students with personalized learning paths in subjects like math and science"
+},
+{
+"id": 171,
+"question": "How does Marvin help students at the University of Melbourne?",
+"options": ["Real-time tutoring", "Administrative tasks and university life queries", "Eliminate teachers", "Grade assignments"],
+"answer": "By helping students with administrative tasks and answering queries related to university life"
+},
+{
+"id": 172,
+"question": "What is one key impact of using AI chatbots like Marvin?",
+"options": ["Replace staff", "Faster access to info and improved student satisfaction", "Grading only", "Limit access"],
+"answer": "They offer faster, more efficient access to key information and improve student satisfaction"
+},
+{
+"id": 173,
+"question": "Which of the following AI chatbots provides personalized tutoring by analyzing students' responses?",
+"options": ["Duolingo", "Marvin", "Watson Tutor", "Pounce"],
+"answer": "Watson Tutor"
+}
+]
