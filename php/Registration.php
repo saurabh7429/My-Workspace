@@ -19,7 +19,8 @@
         <button type="submit">Register</button>
         <?php
             echo "<h2>Welcome " . $_GET["name"] . "</h2>";
-            
+            echo "<p>Age: " . $_GET["age"] . "</p>";
+            echo "<p?>Email: " . $_GET["email"] . "</p>";
         ?>
     </form>
 </body>
