@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,11 +18,9 @@
 
         <button type="submit">Register</button>
         <?php
-            echo "<h2>Welcome </h2>" . $_get("name");
+            echo "<h2>Welcome " . $_GET["name"] . "</h2>";
             
         ?>
-
-        
     </form>
 </body>
 </html>
