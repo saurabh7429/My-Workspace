@@ -4,6 +4,10 @@ import time
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 
 
+class PromptTypingError(Exception):
+    pass
+
+
 class UnofficialChatGPTAPI:
     def __init__(self):
         self.p = sync_playwright().start()
@@ -81,7 +85,47 @@ class UnofficialChatGPTAPI:
             self._init_browser()
 
     def _prompt_locator(self):
-        return self.page.locator("#prompt-textarea, textarea").first
+        locator = self.page.locator("#prompt-textarea, textarea")
+        try:
+            count = locator.count()
+        except Exception:
+            return locator.first
+
+        for index in range(count):
+            candidate = locator.nth(index)
+            try:
+                if candidate.is_visible() and candidate.is_enabled():
+                    return candidate
+            except Exception:
+                continue
+
+        return locator.first
+
+    def _send_button_locator(self):
+        selectors = [
+            'button[data-testid*="send" i]',
+            'button[aria-label*="Send message" i]',
+            'button[aria-label*="Send" i]',
+            'button[title*="Send message" i]',
+            'button[title*="Send" i]',
+        ]
+
+        for selector in selectors:
+            locator = self.page.locator(selector)
+            try:
+                count = locator.count()
+            except Exception:
+                continue
+
+            for index in range(count):
+                candidate = locator.nth(index)
+                try:
+                    if candidate.is_visible() and candidate.is_enabled():
+                        return candidate
+                except Exception:
+                    continue
+
+        return None
 
     def _assistant_locator(self):
         return self.page.locator('div[data-message-author-role="assistant"]')
@@ -100,6 +144,22 @@ class UnofficialChatGPTAPI:
 
             if time.time() - start > timeout_s:
                 raise PlaywrightTimeoutError("Prompt box ready nahi hua.")
+
+            time.sleep(0.35)
+
+    def _wait_for_composer_ready(self, timeout_s=30):
+        start = time.time()
+        while True:
+            self._ensure_page_ready()
+            try:
+                prompt = self._prompt_locator()
+                if prompt.count() > 0 and prompt.is_visible() and prompt.is_enabled():
+                    return prompt
+            except Exception:
+                pass
+
+            if time.time() - start > timeout_s:
+                raise PlaywrightTimeoutError("Composer ready nahi hua.")
 
             time.sleep(0.35)
 
@@ -167,22 +227,16 @@ class UnofficialChatGPTAPI:
             except Exception:
                 pass
 
-        typing_timeout = max(120000, len(prompt_text) * 20 + 30000)
-
-        try:
-            locator.fill(prompt_text, timeout=typing_timeout)
-            return
-        except Exception:
-            pass
+        typing_timeout = max(120000, len(prompt_text) * 25 + 30000)
 
         try:
             locator.press_sequentially(prompt_text, delay=3, timeout=typing_timeout)
         except TypeError:
             locator.press_sequentially(prompt_text, delay=3)
         except PlaywrightError as e:
-            raise Exception(f"Typing fail hua: {e}")
+            raise PromptTypingError(f"Typing fail hua: {e}")
 
-        time.sleep(0.25)
+        time.sleep(0.5)
 
         current_value = None
         current_text = None
@@ -203,9 +257,17 @@ class UnofficialChatGPTAPI:
         if current_text is not None and prompt_text in current_text:
             return
 
-        raise Exception("Prompt text complete set nahi hua.")
+        raise PromptTypingError("Prompt text complete set nahi hua.")
 
     def _submit_prompt(self, locator):
+        send_button = self._send_button_locator()
+        if send_button is not None:
+            try:
+                send_button.click(timeout=5000)
+                return
+            except Exception:
+                pass
+
         try:
             locator.press("Enter", timeout=10000)
         except TypeError:
@@ -268,12 +330,25 @@ class UnofficialChatGPTAPI:
         for attempt in range(3):
             try:
                 self._ensure_page_ready()
-                prompt_box = self._wait_for_prompt(timeout_s=90)
+                prompt_box = self._wait_for_composer_ready(timeout_s=60)
                 response_selector = 'div[data-message-author-role="assistant"]'
                 old_msg_count = self._assistant_locator().count()
 
-                print("✍️ Prompt likh rahe hain...")
-                self._type_prompt(prompt_box, prompt_text)
+                typing_done = False
+                for typing_attempt in range(2):
+                    try:
+                        print("✍️ Prompt likh rahe hain...")
+                        self._type_prompt(prompt_box, prompt_text)
+                        typing_done = True
+                        break
+                    except PromptTypingError as typing_err:
+                        print(f"\n⚠️ Typing attempt {typing_attempt + 1} Failed: (Error: {typing_err})")
+                        if typing_attempt < 1:
+                            time.sleep(0.75)
+                            prompt_box = self._wait_for_composer_ready(timeout_s=30)
+
+                if not typing_done:
+                    raise PromptTypingError("Prompt typing failed after retry.")
 
                 print("📨 Send kar rahe hain...")
                 self._submit_prompt(prompt_box)
@@ -287,10 +362,16 @@ class UnofficialChatGPTAPI:
                 current_text = self._wait_for_response_stable(latest_message_block)
 
                 print("✅ Response complete.")
+                self._wait_for_composer_ready(timeout_s=30)
                 return current_text
 
             except Exception as e:
                 print(f"\n⚠️ Attempt {attempt + 1} Failed: (Error: {e})")
+                if isinstance(e, PromptTypingError):
+                    if attempt < 2:
+                        time.sleep(1)
+                        continue
+                    return "❌ Prompt likhne me problem aa rahi hai. Kripya prompt aur prompt box check karein."
                 if attempt < 2:
                     try:
                         self.restart_browser()
