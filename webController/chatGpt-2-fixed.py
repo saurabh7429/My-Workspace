@@ -103,28 +103,60 @@ class UnofficialChatGPTAPI:
 
             time.sleep(0.35)
 
+    def _open_chatgpt(self, timeout_s=60):
+        last_error = None
+
+        for attempt in range(3):
+            self._ensure_page_ready()
+            try:
+                self.page.bring_to_front()
+            except Exception:
+                pass
+
+            try:
+                self.page.goto(
+                    "https://chatgpt.com/",
+                    wait_until="domcontentloaded",
+                    timeout=timeout_s * 1000,
+                )
+                try:
+                    self.page.wait_for_load_state("domcontentloaded", timeout=15000)
+                except Exception:
+                    pass
+
+                if self.page.url == "about:blank":
+                    raise Exception("browser remained on about:blank")
+
+                self._wait_for_prompt(timeout_s=90)
+                return
+            except Exception as e:
+                last_error = e
+                time.sleep(1)
+
+        raise Exception(f"ChatGPT open nahi hua: {last_error}")
+
     def start_chat(self):
         print("🌐 ChatGPT server se connect kar rahe hain...")
-        self._ensure_page_ready()
-        try:
-            self.page.goto(
-                "https://chatgpt.com/",
-                wait_until="domcontentloaded",
-                timeout=60000,
-            )
-        except Exception as e:
-            raise Exception(f"ChatGPT open nahi hua: {e}")
-
-        self._wait_for_prompt(timeout_s=90)
+        self._open_chatgpt(timeout_s=60)
 
     def restart_browser(self):
         print("🔄 Browser/Renderer puri tarah rebuild kiya ja raha hai...")
         self._safe_close_context()
         time.sleep(1)
         self._init_browser()
-        self.start_chat()
+        self._open_chatgpt(timeout_s=60)
 
     def _type_prompt(self, locator, prompt_text):
+        try:
+            locator.wait_for(state="visible", timeout=5000)
+        except Exception:
+            pass
+
+        try:
+            locator.scroll_into_view_if_needed(timeout=5000)
+        except Exception:
+            pass
+
         locator.click()
         try:
             locator.press("Control+A")
@@ -135,7 +167,14 @@ class UnofficialChatGPTAPI:
             except Exception:
                 pass
 
-        typing_timeout = max(30000, len(prompt_text) * 5 + 10000)
+        typing_timeout = max(120000, len(prompt_text) * 20 + 30000)
+
+        try:
+            locator.fill(prompt_text, timeout=typing_timeout)
+            return
+        except Exception:
+            pass
+
         try:
             locator.press_sequentially(prompt_text, delay=3, timeout=typing_timeout)
         except TypeError:
@@ -144,6 +183,27 @@ class UnofficialChatGPTAPI:
             raise Exception(f"Typing fail hua: {e}")
 
         time.sleep(0.25)
+
+        current_value = None
+        current_text = None
+
+        try:
+            current_value = locator.input_value(timeout=2000)
+        except Exception:
+            pass
+
+        if current_value == prompt_text:
+            return
+
+        try:
+            current_text = locator.inner_text(timeout=2000)
+        except Exception:
+            pass
+
+        if current_text is not None and prompt_text in current_text:
+            return
+
+        raise Exception("Prompt text complete set nahi hua.")
 
     def _submit_prompt(self, locator):
         try:
