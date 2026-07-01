@@ -8,24 +8,20 @@
     <h2>Student Registration</h2>
     <form action="" method="get" >
         <label for="name">Name: </label>
-        <input type="text" name="name" id="name" ><br>
+        <input type="text" name="name" id="name" required><br>
 
         <label for="age">Age: </label>
-        <input type="number" name="age" id="age"><br>
+        <input type="number" name="age" id="age" required><br>
 
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email"><br>
+        <input type="email" name="email" id="email" required><br>
 
         <button type="submit">Register</button>
         <?php
             if(isset($_GET["name"])) {
                 echo "<h2>Welcome " . $_GET["name"] . "</h2>";
-            }
-            if(isset($_GET["age"])) {
                 echo "<p>Age: " . $_GET["age"] . "</p>";
-            }
-            if(isset($_GET["email"])) {
-                echo "<p?>Email: " . $_GET["email"] . "</p>";
+                echo "<p>Email: " . $_GET["email"] . "</p>";
             }                   
         ?>
     </form>
