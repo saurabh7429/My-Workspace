@@ -7,7 +7,8 @@
         "Rohit"
     ];
 
-    foreach( $students as $stud ) {
-        echo $stud . "<br>";
+    echo "Student List: <br><br>";
+    foreach( $students as $key => $student ) {
+        echo ( $key + 1 ) . ". ". $student . "<br>";
     }
 ?>
