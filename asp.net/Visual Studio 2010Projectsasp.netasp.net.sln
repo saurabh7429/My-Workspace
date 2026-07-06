@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp.net", ".", "{1BD9E9EF-CB3C-40C9-9CFB-E58AA30AE42C}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "asp.net", ".", "{25FCA6C9-51ED-4969-B333-FFC1C283E103}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "64173"
+		VWDPort = "52989"
 	EndProjectSection
 EndProject
 Global
@@ -14,8 +14,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1BD9E9EF-CB3C-40C9-9CFB-E58AA30AE42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BD9E9EF-CB3C-40C9-9CFB-E58AA30AE42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FCA6C9-51ED-4969-B333-FFC1C283E103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FCA6C9-51ED-4969-B333-FFC1C283E103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

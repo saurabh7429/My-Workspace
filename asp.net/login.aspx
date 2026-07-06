@@ -93,7 +93,7 @@
                     <asp:Label ID="Label5" runat="server" Text="CONFIRM PASSWORD :"></asp:Label>
                 </td>
                 <td class="style6">
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" runat="server" Width="308px"></asp:TextBox>
                 </td>
                 <td>
                     <asp:CompareValidator ID="CompareValidator1" runat="server" 
@@ -104,7 +104,8 @@
     
     </div>
     <p>
-        &nbsp;</p>
+        <asp:Button ID="Button1" runat="server" Text="REGISTER" Width="83px" />
+    </p>
     </form>
 </body>
 </html>
