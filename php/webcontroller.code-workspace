@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../webcontroller"
+		},
+		{
+			"path": "../../../python"
+		},
+		{
+			"path": "../../../php"
+		},
+		{
+			"name": "My-Workspace",
+			"path": ".."
+		},
+		{
+			"path": "../../../browser-research-agent"
+		}
+	]
+}
