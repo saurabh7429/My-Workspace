@@ -15,6 +15,15 @@
 
         <button type="submit">Submit</button>
     </form>
-    
+    <?php 
+        include "array-db.php";
+        
+        if (isset($_GET["name"])) {
+            $lastid = end( $emp["id"]);
+            $emp["id"][] = $lastid + 1;
+            $emp["name"][] = $_GET["name"];
+        }
+        
+    ?>
 </body>
 </html>
