@@ -11,13 +11,16 @@
     <form action="" method="get">
 
         <label for="name">Name :</label>
-        <input type="text" name="name" require>
+        <input type="text" name="name" required>
 
         <button type="submit">Submit</button>
     </form>
     <?php 
-        include "array-db.php";
+        require_once "array-db.php";
         
+        echo "<pre>";
+        print_r($emp);
+        echo "</pre>";
         if (isset($_GET["name"])) {
             $lastid = end( $emp["id"]);
             $emp["id"][] = $lastid + 1;
@@ -33,12 +36,12 @@
             <th>name</th>
         </tr>
         <?php 
-            echo "<tr>";
             for ( $i=0; $i < count($emp["id"]); $i++){
+                echo "<tr>";
                 echo "<td>" . $emp["id"][$i] . "</td>";
                 echo "<td>" . $emp["name"][$i] . "</td>";
+                echo "</tr>";
             }
-            echo "/<tr>";
         ?>
             
         
