@@ -23,7 +23,25 @@
             $emp["id"][] = $lastid + 1;
             $emp["name"][] = $_GET["name"];
         }
+
+       
         
     ?>
+    <table border="2">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+        <?php 
+            echo "<tr>";
+            for ( $i=0; $i < count($emp["id"]); $i++){
+                echo "<td>" . $emp["id"][$i] . "</td>";
+                echo "<td>" . $emp["name"][$i] . "</td>";
+            }
+            echo "/<tr>";
+        ?>
+            
+        
+    </table>
 </body>
 </html>
