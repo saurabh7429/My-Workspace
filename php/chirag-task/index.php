@@ -15,12 +15,6 @@
 
         <button type="submit">Submit</button>
     </form>
-
-    <?php 
-        $emp = [
-                "id" => [1],
-                "name" => ["saurabh"]
-            ];
-    ?>
+    
 </body>
 </html>
