@@ -1,7 +1,7 @@
 let gameNum = 10;
 
-let userNum = prompt("Guess any number");
 do {
-    userNum = prompt("try again :");
+    // userNum = prompt("try again :");
+    let userNum = prompt("Guess any number");
 } while ( gameNum != userNum );
 alert("correct number");
